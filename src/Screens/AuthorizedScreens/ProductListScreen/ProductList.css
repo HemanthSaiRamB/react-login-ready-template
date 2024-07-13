@@ -1,0 +1,40 @@
+.prodListContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.productGrid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.1);
+}
+
+.prodImage {
+    width: 100%;
+    height: auto;
+}
+
+.prodDtls {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.prodName {
+    text-align: left;
+    flex: 1
+}
+
+.prodImage {
+    text-align: right;
+    flex: 1
+}

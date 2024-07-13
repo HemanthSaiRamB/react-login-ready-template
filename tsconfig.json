@@ -1,0 +1,16 @@
+{
+    "compilerOptions": { // behavior of typescript compiler TSC
+      "outDir": "./dist/", // all TS compiler files stores JS files in this directory - type declarations
+      "noImplicitAny": true, // rule to not use Any - typesafety
+      "module": "esnext", // ECMASCRIPT2015 import and export style
+      "target": "es5", // TS compiles ES6 to ES5 JS files which all new and older browsers support
+      "jsx": "react", // Treat JSX as react instead of react-native mode
+      "allowJs": true, // allows to include JS file along with TS files - TSC has no problem with compilation compiles all
+      "moduleResolution": "node", // to find TS files (import-export) using node libraries
+      "allowSyntheticDefaultImports": true // allow default imports of modules that do not have default export
+    },
+    "include": [ // tells which are part of the project
+      "./src/**/*"
+    ]
+  }
+  

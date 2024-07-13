@@ -1,0 +1,43 @@
+.prodGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 10px;
+    place-items: center;
+}
+
+.prodDescp {
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 40%;
+    height: 100%;
+}
+
+.prodImage {
+    width: 50%;
+    height: auto;
+}
+
+.prodDtls {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.prodName {
+    text-align: left;
+    padding-left: 10px;
+    flex: 1;
+}
+
+.prodPrice {
+    text-align: right;
+    padding-right: 10px;
+    flex: 1;
+}
